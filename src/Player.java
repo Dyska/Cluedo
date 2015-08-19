@@ -404,6 +404,7 @@ public class Player{
 			
 			Suggestion suggestion = new Suggestion(chosenWeapon, chosenRoom, accusedCharacter);
 			System.out.println("Player "+this.playerNumber+" is suggesting: "+suggestion.toString());
+			checkSuggestion(suggestion);
 		}
 	}
 	
